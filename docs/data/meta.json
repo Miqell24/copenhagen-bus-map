@@ -1,0 +1,4633 @@
+{
+  "generatedAt": "2026-08-21T09:45:53.569Z",
+  "bbox": [
+    12.065296,
+    55.457761,
+    12.679821,
+    55.926875
+  ],
+  "badgeBands": [
+    [
+      13,
+      13.6
+    ],
+    [
+      13.6,
+      14.4
+    ],
+    [
+      14.4,
+      15.5
+    ],
+    [
+      15.5,
+      16.8
+    ],
+    [
+      16.8,
+      22
+    ]
+  ],
+  "modes": [
+    {
+      "mode": "bus",
+      "label": "buses",
+      "color": "#0059a9"
+    },
+    {
+      "mode": "tram",
+      "label": "letbane",
+      "color": "#d6212b"
+    },
+    {
+      "mode": "tram",
+      "label": "metro",
+      "color": "#d6212b"
+    },
+    {
+      "mode": "tram",
+      "label": "S-tog",
+      "color": "#d6212b"
+    }
+  ],
+  "lines": [
+    {
+      "line": "1A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Hellerup St.",
+          "variants": 6,
+          "tripCount": 221,
+          "stops": 57,
+          "lengthKm": 22.64,
+          "stats": {
+            "observations": 992,
+            "matched": 992,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2772170669533105,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Avedøre St.",
+          "variants": 6,
+          "tripCount": 225,
+          "stops": 56,
+          "lengthKm": 22.14,
+          "stats": {
+            "observations": 978,
+            "matched": 978,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1392099705535068,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "2A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Refshaleøen",
+          "variants": 3,
+          "tripCount": 742,
+          "stops": 38,
+          "lengthKm": 14.39,
+          "stats": {
+            "observations": 708,
+            "matched": 708,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0784226927572167,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Tingbjerg Gavlhusvej",
+          "variants": 4,
+          "tripCount": 791,
+          "stops": 38,
+          "lengthKm": 14.42,
+          "stats": {
+            "observations": 695,
+            "matched": 695,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9986221222020972,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "4A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Buddinge St.",
+          "variants": 5,
+          "tripCount": 217,
+          "stops": 46,
+          "lengthKm": 17.19,
+          "stats": {
+            "observations": 762,
+            "matched": 762,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1464374752464301,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Friheden St.",
+          "variants": 5,
+          "tripCount": 219,
+          "stops": 47,
+          "lengthKm": 16.97,
+          "stats": {
+            "observations": 771,
+            "matched": 771,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.099100304720006,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "5C",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Københavns Lufthavn",
+          "variants": 10,
+          "tripCount": 99,
+          "stops": 50,
+          "lengthKm": 22.08,
+          "stats": {
+            "observations": 1033,
+            "matched": 1033,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4228782453997801,
+            "roundaboutSegs": 6,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Herlev Hospital",
+          "variants": 10,
+          "tripCount": 114,
+          "stops": 50,
+          "lengthKm": 21.82,
+          "stats": {
+            "observations": 997,
+            "matched": 997,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3693510177682517,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "6A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Buddinge St.",
+          "variants": 2,
+          "tripCount": 253,
+          "stops": 26,
+          "lengthKm": 9.65,
+          "stats": {
+            "observations": 485,
+            "matched": 485,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.6306826664851464,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Nørreport St.",
+          "variants": 2,
+          "tripCount": 249,
+          "stops": 25,
+          "lengthKm": 9.81,
+          "stats": {
+            "observations": 466,
+            "matched": 466,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5611212214720094,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "7A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Københavns Hovedbanegård",
+          "variants": 7,
+          "tripCount": 218,
+          "stops": 37,
+          "lengthKm": 12.37,
+          "stats": {
+            "observations": 573,
+            "matched": 573,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.091230871909982,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Rødovre Nord St.",
+          "variants": 7,
+          "tripCount": 55,
+          "stops": 35,
+          "lengthKm": 13.17,
+          "stats": {
+            "observations": 614,
+            "matched": 614,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9356158609483756,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "8A",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Valby St.",
+          "variants": 4,
+          "tripCount": 423,
+          "stops": 27,
+          "lengthKm": 12.11,
+          "stats": {
+            "observations": 505,
+            "matched": 505,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2887565066394255,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Lergravsparken St.",
+          "variants": 3,
+          "tripCount": 261,
+          "stops": 25,
+          "lengthKm": 11.61,
+          "stats": {
+            "observations": 481,
+            "matched": 481,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.339764223785099,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "10",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Brønshøj Torv",
+          "variants": 2,
+          "tripCount": 190,
+          "stops": 29,
+          "lengthKm": 10.51,
+          "stats": {
+            "observations": 444,
+            "matched": 444,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2899648430326989,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Åmarken St.",
+          "variants": 1,
+          "tripCount": 373,
+          "stops": 28,
+          "lengthKm": 10.04,
+          "stats": {
+            "observations": 471,
+            "matched": 471,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8442827861124292,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "11",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Avedøre St.",
+          "variants": 5,
+          "tripCount": 168,
+          "stops": 30,
+          "lengthKm": 12.48,
+          "stats": {
+            "observations": 609,
+            "matched": 609,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0623775915724276,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Rådhuspladsen",
+          "variants": 6,
+          "tripCount": 162,
+          "stops": 27,
+          "lengthKm": 13.32,
+          "stats": {
+            "observations": 628,
+            "matched": 628,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4997510796872573,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "12",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Islev Viemosevej",
+          "variants": 2,
+          "tripCount": 97,
+          "stops": 31,
+          "lengthKm": 12.32,
+          "stats": {
+            "observations": 584,
+            "matched": 584,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1419125228617728,
+            "roundaboutSegs": 6,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Svanemøllen St.",
+          "variants": 3,
+          "tripCount": 97,
+          "stops": 31,
+          "lengthKm": 12.49,
+          "stats": {
+            "observations": 592,
+            "matched": 592,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2022818038830692,
+            "roundaboutSegs": 8,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "14",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Østerbro, Ryparken",
+          "variants": 1,
+          "tripCount": 199,
+          "stops": 27,
+          "lengthKm": 8.91,
+          "stats": {
+            "observations": 430,
+            "matched": 430,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3526366061196016,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Nørreport St.",
+          "variants": 1,
+          "tripCount": 198,
+          "stops": 26,
+          "lengthKm": 9.94,
+          "stats": {
+            "observations": 462,
+            "matched": 462,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2598606748695713,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "15E",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Nørreport St.",
+          "variants": 1,
+          "tripCount": 32,
+          "stops": 9,
+          "lengthKm": 12.79,
+          "stats": {
+            "observations": 597,
+            "matched": 597,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2783473946042394,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Rævehøjvej, DTU",
+          "variants": 1,
+          "tripCount": 31,
+          "stops": 9,
+          "lengthKm": 12.88,
+          "stats": {
+            "observations": 564,
+            "matched": 564,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0863581111244969,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "17",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "København Syd St.",
+          "variants": 2,
+          "tripCount": 243,
+          "stops": 21,
+          "lengthKm": 8.46,
+          "stats": {
+            "observations": 409,
+            "matched": 409,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1233846836294594,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Vesterport St.",
+          "variants": 3,
+          "tripCount": 245,
+          "stops": 21,
+          "lengthKm": 8.38,
+          "stats": {
+            "observations": 390,
+            "matched": 390,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.9866586583282833,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "18",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Emdrup Torv",
+          "variants": 3,
+          "tripCount": 51,
+          "stops": 21,
+          "lengthKm": 11.31,
+          "stats": {
+            "observations": 529,
+            "matched": 529,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.351756369149506,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Valby St.",
+          "variants": 4,
+          "tripCount": 89,
+          "stops": 22,
+          "lengthKm": 9.94,
+          "stats": {
+            "observations": 470,
+            "matched": 470,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2900211229895393,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "19",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Kongens Enghave Valbyparken",
+          "variants": 8,
+          "tripCount": 85,
+          "stops": 45,
+          "lengthKm": 20.58,
+          "stats": {
+            "observations": 993,
+            "matched": 993,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1976785855562775,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Glostrup St.",
+          "variants": 6,
+          "tripCount": 82,
+          "stops": 40,
+          "lengthKm": 20.3,
+          "stats": {
+            "observations": 964,
+            "matched": 964,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0705294377999517,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "21",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Rødovre St.",
+          "variants": 3,
+          "tripCount": 124,
+          "stops": 32,
+          "lengthKm": 13.25,
+          "stats": {
+            "observations": 644,
+            "matched": 644,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3051288175029645,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Hellerup St.",
+          "variants": 1,
+          "tripCount": 220,
+          "stops": 33,
+          "lengthKm": 13.33,
+          "stats": {
+            "observations": 668,
+            "matched": 668,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3167784271724743,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "22",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Glostrup St. Glosemosevej",
+          "variants": 4,
+          "tripCount": 126,
+          "stops": 51,
+          "lengthKm": 19.16,
+          "stats": {
+            "observations": 842,
+            "matched": 842,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8244675183464147,
+            "roundaboutSegs": 8,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Husum Torv",
+          "variants": 4,
+          "tripCount": 126,
+          "stops": 56,
+          "lengthKm": 22.42,
+          "stats": {
+            "observations": 985,
+            "matched": 985,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9846347828749645,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "23",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Klampenborg St.",
+          "variants": 8,
+          "tripCount": 104,
+          "stops": 79,
+          "lengthKm": 27.27,
+          "stats": {
+            "observations": 1304,
+            "matched": 1304,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2143323468202083,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Valby St.",
+          "variants": 6,
+          "tripCount": 99,
+          "stops": 78,
+          "lengthKm": 28.46,
+          "stats": {
+            "observations": 1366,
+            "matched": 1366,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4062060621342902,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "25",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Oceankaj",
+          "variants": 1,
+          "tripCount": 128,
+          "stops": 4,
+          "lengthKm": 3.31,
+          "stats": {
+            "observations": 131,
+            "matched": 131,
+            "noCandidates": 0,
+            "viterbiBreaks": 4,
+            "bridged": 0,
+            "rawStretchCount": 4,
+            "rawMeters": 79,
+            "meanError": 5.138884431556458,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Orientkaj St.",
+          "variants": 1,
+          "tripCount": 125,
+          "stops": 4,
+          "lengthKm": 2.95,
+          "stats": {
+            "observations": 97,
+            "matched": 97,
+            "noCandidates": 0,
+            "viterbiBreaks": 4,
+            "bridged": 0,
+            "rawStretchCount": 4,
+            "rawMeters": 79,
+            "meanError": 6.775144014711536,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "26",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Sankt Annæ Plads, Skuespilhuset",
+          "variants": 6,
+          "tripCount": 176,
+          "stops": 42,
+          "lengthKm": 14.45,
+          "stats": {
+            "observations": 721,
+            "matched": 721,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2084848585203796,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Bellahøj",
+          "variants": 3,
+          "tripCount": 185,
+          "stops": 42,
+          "lengthKm": 14.12,
+          "stats": {
+            "observations": 708,
+            "matched": 708,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3605341834606202,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "27",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Færgeterminal Søndre Frihavn",
+          "variants": 3,
+          "tripCount": 164,
+          "stops": 7,
+          "lengthKm": 2.15,
+          "stats": {
+            "observations": 109,
+            "matched": 109,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.7165474342538931,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Østerport St.",
+          "variants": 4,
+          "tripCount": 164,
+          "stops": 7,
+          "lengthKm": 2.48,
+          "stats": {
+            "observations": 125,
+            "matched": 125,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.0244061010261194,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "31",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Kastrup St.",
+          "variants": 11,
+          "tripCount": 195,
+          "stops": 45,
+          "lengthKm": 15.84,
+          "stats": {
+            "observations": 725,
+            "matched": 725,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0963899674302704,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Vanløse Ålekistevej",
+          "variants": 9,
+          "tripCount": 189,
+          "stops": 45,
+          "lengthKm": 15.99,
+          "stats": {
+            "observations": 752,
+            "matched": 752,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0980252577609153,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "32",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ørestad St. Kay Fiskers Plads",
+          "variants": 1,
+          "tripCount": 64,
+          "stops": 21,
+          "lengthKm": 8.12,
+          "stats": {
+            "observations": 318,
+            "matched": 318,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0544624989968325,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Kastrup St.",
+          "variants": 1,
+          "tripCount": 61,
+          "stops": 23,
+          "lengthKm": 8.23,
+          "stats": {
+            "observations": 319,
+            "matched": 319,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2449700906361447,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "33",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Dragør Stationsplads",
+          "variants": 12,
+          "tripCount": 32,
+          "stops": 70,
+          "lengthKm": 30.4,
+          "stats": {
+            "observations": 962,
+            "matched": 962,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9958006897012648,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Rådhuspladsen St. (H.C. Andersens Boulevard)",
+          "variants": 10,
+          "tripCount": 31,
+          "stops": 70,
+          "lengthKm": 30.64,
+          "stats": {
+            "observations": 955,
+            "matched": 955,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0388922847865014,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "34",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Vestamager Nøragersmindevej",
+          "variants": 2,
+          "tripCount": 53,
+          "stops": 27,
+          "lengthKm": 11.05,
+          "stats": {
+            "observations": 405,
+            "matched": 405,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0817034472987548,
+            "roundaboutSegs": 17,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Bella Center",
+          "variants": 2,
+          "tripCount": 54,
+          "stops": 26,
+          "lengthKm": 10.96,
+          "stats": {
+            "observations": 418,
+            "matched": 418,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9388250076795764,
+            "roundaboutSegs": 11,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "35",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Københavns Lufthavn (Ellehammersvej)",
+          "variants": 2,
+          "tripCount": 79,
+          "stops": 31,
+          "lengthKm": 16.4,
+          "stats": {
+            "observations": 615,
+            "matched": 615,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0252576399573914,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Sundbyvester Plads",
+          "variants": 2,
+          "tripCount": 81,
+          "stops": 32,
+          "lengthKm": 16.56,
+          "stats": {
+            "observations": 669,
+            "matched": 669,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0318339087710067,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "36",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Vestamager Nøragersmindevej",
+          "variants": 1,
+          "tripCount": 82,
+          "stops": 26,
+          "lengthKm": 10.53,
+          "stats": {
+            "observations": 378,
+            "matched": 378,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9956345659394933,
+            "roundaboutSegs": 24,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Københavns Lufthavn",
+          "variants": 1,
+          "tripCount": 82,
+          "stops": 27,
+          "lengthKm": 10.45,
+          "stats": {
+            "observations": 351,
+            "matched": 351,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.7493162227314056,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "37",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Amagerværket, Vindmøllevej (Vindmøllevej)",
+          "variants": 5,
+          "tripCount": 9,
+          "stops": 19,
+          "lengthKm": 7.78,
+          "stats": {
+            "observations": 360,
+            "matched": 360,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3729929139001846,
+            "roundaboutSegs": 11,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Vesterport St. (Vester Farimagsgade)",
+          "variants": 5,
+          "tripCount": 9,
+          "stops": 19,
+          "lengthKm": 7.66,
+          "stats": {
+            "observations": 349,
+            "matched": 349,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4549727109777526,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "40E",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Høje Taastrup St.",
+          "variants": 4,
+          "tripCount": 29,
+          "stops": 24,
+          "lengthKm": 38.79,
+          "stats": {
+            "observations": 1669,
+            "matched": 1669,
+            "noCandidates": 0,
+            "viterbiBreaks": 3,
+            "bridged": 0,
+            "rawStretchCount": 3,
+            "rawMeters": 60,
+            "meanError": 1.4036569770844316,
+            "roundaboutSegs": 40,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Skodsborg St.",
+          "variants": 4,
+          "tripCount": 27,
+          "stops": 25,
+          "lengthKm": 38.41,
+          "stats": {
+            "observations": 1659,
+            "matched": 1659,
+            "noCandidates": 0,
+            "viterbiBreaks": 3,
+            "bridged": 0,
+            "rawStretchCount": 3,
+            "rawMeters": 59,
+            "meanError": 1.5156413324175904,
+            "roundaboutSegs": 63,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "55E",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Rødovre Nord St.",
+          "variants": 1,
+          "tripCount": 21,
+          "stops": 16,
+          "lengthKm": 24.69,
+          "stats": {
+            "observations": 1085,
+            "matched": 1085,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0356966243575416,
+            "roundaboutSegs": 32,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Allerød St.",
+          "variants": 1,
+          "tripCount": 21,
+          "stops": 16,
+          "lengthKm": 24.43,
+          "stats": {
+            "observations": 1086,
+            "matched": 1086,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0370943694720602,
+            "roundaboutSegs": 11,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "68",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Lyngby St. Via Utterslev Torv",
+          "variants": 18,
+          "tripCount": 12,
+          "stops": 59,
+          "lengthKm": 25.16,
+          "stats": {
+            "observations": 1149,
+            "matched": 1149,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2100070539461183,
+            "roundaboutSegs": 6,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Bella Center St. (Martha Christensens Vej)",
+          "variants": 13,
+          "tripCount": 12,
+          "stops": 56,
+          "lengthKm": 24.56,
+          "stats": {
+            "observations": 1138,
+            "matched": 1138,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2661868035365305,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "71",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Frederiksberg Rådhus (Smallegade)",
+          "headsign": "Frederiksberg Rådhus (Smallegade)",
+          "variants": 2,
+          "tripCount": 6,
+          "stops": 24,
+          "lengthKm": 7.46,
+          "stats": {
+            "observations": 355,
+            "matched": 355,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1959398340952752,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Frederiksberg Rådhus via Vodroffsvej",
+          "headsign": "Frederiksberg Rådhus via Vodroffsvej",
+          "variants": 1,
+          "tripCount": 28,
+          "stops": 24,
+          "lengthKm": 7.46,
+          "stats": {
+            "observations": 355,
+            "matched": 355,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1959398340952752,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "72",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Frederiksberg Rådhus (Smallegade)",
+          "headsign": "Frederiksberg Rådhus (Smallegade)",
+          "variants": 2,
+          "tripCount": 28,
+          "stops": 22,
+          "lengthKm": 7.02,
+          "stats": {
+            "observations": 301,
+            "matched": 301,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1584206311575864,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "74",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Frederiksberg Rådhus",
+          "headsign": "Frederiksberg Rådhus",
+          "variants": 1,
+          "tripCount": 16,
+          "stops": 23,
+          "lengthKm": 6.08,
+          "stats": {
+            "observations": 305,
+            "matched": 305,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3309151641059767,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Frederiksberg Rådhus (Smallegade)",
+          "headsign": "Frederiksberg Rådhus (Smallegade)",
+          "variants": 2,
+          "tripCount": 28,
+          "stops": 23,
+          "lengthKm": 6.08,
+          "stats": {
+            "observations": 305,
+            "matched": 305,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3309151641059767,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "77",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Bella Center",
+          "variants": 2,
+          "tripCount": 59,
+          "stops": 24,
+          "lengthKm": 10.91,
+          "stats": {
+            "observations": 484,
+            "matched": 484,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2835917530775098,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Sundbyvester Plads",
+          "variants": 2,
+          "tripCount": 61,
+          "stops": 24,
+          "lengthKm": 10.62,
+          "stats": {
+            "observations": 459,
+            "matched": 459,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.243167506124413,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "78",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "DR Byen St.",
+          "variants": 1,
+          "tripCount": 82,
+          "stops": 11,
+          "lengthKm": 3.97,
+          "stats": {
+            "observations": 178,
+            "matched": 178,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8673777506245605,
+            "roundaboutSegs": 7,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Femøren St.",
+          "variants": 3,
+          "tripCount": 50,
+          "stops": 11,
+          "lengthKm": 4.43,
+          "stats": {
+            "observations": 203,
+            "matched": 203,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9323613041969466,
+            "roundaboutSegs": 35,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "87",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Solrød Strand St.",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 58,
+          "lengthKm": 30.44,
+          "stats": {
+            "observations": 1462,
+            "matched": 1462,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1081016990818404,
+            "roundaboutSegs": 74,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "København Syd St.",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 59,
+          "lengthKm": 30.19,
+          "stats": {
+            "observations": 1356,
+            "matched": 1356,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.185404364548707,
+            "roundaboutSegs": 81,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "130",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Rødovre Nord St.",
+          "variants": 2,
+          "tripCount": 65,
+          "stops": 41,
+          "lengthKm": 17.43,
+          "stats": {
+            "observations": 693,
+            "matched": 693,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9876657001311345,
+            "roundaboutSegs": 21,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Vallensbæk St.",
+          "variants": 2,
+          "tripCount": 73,
+          "stops": 39,
+          "lengthKm": 17.15,
+          "stats": {
+            "observations": 735,
+            "matched": 735,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.91555853517587,
+            "roundaboutSegs": 18,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "131",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Rødovre St.",
+          "variants": 2,
+          "tripCount": 113,
+          "stops": 31,
+          "lengthKm": 11.27,
+          "stats": {
+            "observations": 528,
+            "matched": 528,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8989592643812994,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Tingbjerg Gavlhusvej",
+          "variants": 1,
+          "tripCount": 110,
+          "stops": 27,
+          "lengthKm": 10.05,
+          "stats": {
+            "observations": 471,
+            "matched": 471,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9159979691586524,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "132",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Rødovre Centrum",
+          "variants": 2,
+          "tripCount": 136,
+          "stops": 29,
+          "lengthKm": 10.11,
+          "stats": {
+            "observations": 490,
+            "matched": 490,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8583765788271871,
+            "roundaboutSegs": 8,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Friheden St.",
+          "variants": 1,
+          "tripCount": 134,
+          "stops": 22,
+          "lengthKm": 7.23,
+          "stats": {
+            "observations": 328,
+            "matched": 328,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8043755796678025,
+            "roundaboutSegs": 8,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "133",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Avedøre St.",
+          "variants": 1,
+          "tripCount": 108,
+          "stops": 21,
+          "lengthKm": 8.67,
+          "stats": {
+            "observations": 399,
+            "matched": 399,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1779178963593557,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Valby St.",
+          "variants": 1,
+          "tripCount": 103,
+          "stops": 20,
+          "lengthKm": 8.55,
+          "stats": {
+            "observations": 403,
+            "matched": 403,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.088212272541776,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "135",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Brøndbyvester St.",
+          "variants": 2,
+          "tripCount": 82,
+          "stops": 34,
+          "lengthKm": 16.91,
+          "stats": {
+            "observations": 735,
+            "matched": 735,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.6980788926020014,
+            "roundaboutSegs": 23,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Brøndby Strand St.",
+          "variants": 1,
+          "tripCount": 83,
+          "stops": 25,
+          "lengthKm": 12.43,
+          "stats": {
+            "observations": 541,
+            "matched": 541,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.667618630586598,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "137",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Friheden St. via Avedøre Holme",
+          "headsign": "Friheden St. via Avedøre Holme",
+          "variants": 1,
+          "tripCount": 6,
+          "stops": 23,
+          "lengthKm": 11.55,
+          "stats": {
+            "observations": 336,
+            "matched": 336,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.6338131622225273,
+            "roundaboutSegs": 4,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "139",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Friheden St. via Avedøre Holme",
+          "headsign": "Friheden St. via Avedøre Holme",
+          "variants": 1,
+          "tripCount": 65,
+          "stops": 15,
+          "lengthKm": 8.16,
+          "stats": {
+            "observations": 265,
+            "matched": 265,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.6273086327822075,
+            "roundaboutSegs": 30,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "141",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Albertslund St.",
+          "variants": 5,
+          "tripCount": 177,
+          "stops": 33,
+          "lengthKm": 12.5,
+          "stats": {
+            "observations": 580,
+            "matched": 580,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.034169557723121,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Glostrup, Ejby St.",
+          "variants": 1,
+          "tripCount": 175,
+          "stops": 33,
+          "lengthKm": 12.38,
+          "stats": {
+            "observations": 564,
+            "matched": 564,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9864980882599055,
+            "roundaboutSegs": 44,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "142",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Flintholm St.",
+          "variants": 3,
+          "tripCount": 90,
+          "stops": 26,
+          "lengthKm": 11.34,
+          "stats": {
+            "observations": 487,
+            "matched": 487,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9008624691695891,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Skovlunde St.",
+          "variants": 1,
+          "tripCount": 92,
+          "stops": 46,
+          "lengthKm": 11.28,
+          "stats": {
+            "observations": 505,
+            "matched": 505,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9793957295823787,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "143",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Vallensbæk St.",
+          "variants": 2,
+          "tripCount": 29,
+          "stops": 24,
+          "lengthKm": 10.55,
+          "stats": {
+            "observations": 486,
+            "matched": 486,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.31812562444217,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Galgebakken",
+          "variants": 1,
+          "tripCount": 32,
+          "stops": 28,
+          "lengthKm": 10.9,
+          "stats": {
+            "observations": 518,
+            "matched": 518,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9622860172410722,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "144",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Vallensbæk St.",
+          "variants": 1,
+          "tripCount": 54,
+          "stops": 46,
+          "lengthKm": 23.94,
+          "stats": {
+            "observations": 1049,
+            "matched": 1049,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0552751289340871,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Ballerup St.",
+          "variants": 1,
+          "tripCount": 54,
+          "stops": 45,
+          "lengthKm": 23.9,
+          "stats": {
+            "observations": 1056,
+            "matched": 1056,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9809832043106403,
+            "roundaboutSegs": 34,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "147",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Ballerup St. via Måløv St., Smørumnedre",
+          "headsign": "Ballerup St. via Måløv St., Smørumnedre",
+          "variants": 1,
+          "tripCount": 70,
+          "stops": 36,
+          "lengthKm": 16.9,
+          "stats": {
+            "observations": 809,
+            "matched": 809,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8882823649543524,
+            "roundaboutSegs": 30,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Måløv St.",
+          "headsign": "Måløv St.",
+          "variants": 1,
+          "tripCount": 21,
+          "stops": 18,
+          "lengthKm": 7.05,
+          "stats": {
+            "observations": 332,
+            "matched": 332,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0340159566542544,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "149",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Glostrup St.",
+          "variants": 2,
+          "tripCount": 71,
+          "stops": 42,
+          "lengthKm": 17.88,
+          "stats": {
+            "observations": 795,
+            "matched": 795,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0103219225591484,
+            "roundaboutSegs": 7,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Glostrup Nord",
+          "variants": 2,
+          "tripCount": 69,
+          "stops": 41,
+          "lengthKm": 17.49,
+          "stats": {
+            "observations": 778,
+            "matched": 778,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9987537703234943,
+            "roundaboutSegs": 18,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "150S",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Nørreport St.",
+          "variants": 2,
+          "tripCount": 179,
+          "stops": 32,
+          "lengthKm": 30.84,
+          "stats": {
+            "observations": 1256,
+            "matched": 1256,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.1183350230602827,
+            "roundaboutSegs": 63,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Kokkedal St.",
+          "variants": 6,
+          "tripCount": 179,
+          "stops": 32,
+          "lengthKm": 30.56,
+          "stats": {
+            "observations": 1224,
+            "matched": 1224,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.6653730788743077,
+            "roundaboutSegs": 62,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "151",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Kirke Værløse, Laanshøj (Lejrvej)",
+          "variants": 4,
+          "tripCount": 70,
+          "stops": 15,
+          "lengthKm": 6.92,
+          "stats": {
+            "observations": 349,
+            "matched": 349,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9170903317987037,
+            "roundaboutSegs": 26,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Værløse St.",
+          "variants": 4,
+          "tripCount": 28,
+          "stops": 21,
+          "lengthKm": 9.49,
+          "stats": {
+            "observations": 478,
+            "matched": 478,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9779421718395056,
+            "roundaboutSegs": 55,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "152",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Værløse Ryetvej",
+          "variants": 1,
+          "tripCount": 65,
+          "stops": 22,
+          "lengthKm": 8.82,
+          "stats": {
+            "observations": 392,
+            "matched": 392,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 0.9278482925432657,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Måløv St.",
+          "variants": 2,
+          "tripCount": 64,
+          "stops": 23,
+          "lengthKm": 8.73,
+          "stats": {
+            "observations": 410,
+            "matched": 410,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 1.0339567050529093,
+            "roundaboutSegs": 29,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "153",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Værløse Ryetvej",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 21,
+          "lengthKm": 9.47,
+          "stats": {
+            "observations": 424,
+            "matched": 424,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 1.413397363117407,
+            "roundaboutSegs": 24,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Måløv St.",
+          "variants": 1,
+          "tripCount": 13,
+          "stops": 22,
+          "lengthKm": 9.3,
+          "stats": {
+            "observations": 427,
+            "matched": 427,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3300569620279243,
+            "roundaboutSegs": 18,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "156",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Ballerup St.",
+          "headsign": "Ballerup St.",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 6,
+          "lengthKm": 2.62,
+          "stats": {
+            "observations": 116,
+            "matched": 116,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.7772502294173962,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Ballerup St. via Magleparken",
+          "headsign": "Ballerup St. via Magleparken",
+          "variants": 2,
+          "tripCount": 97,
+          "stops": 14,
+          "lengthKm": 7.03,
+          "stats": {
+            "observations": 308,
+            "matched": 308,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3050931757963133,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "157",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Ballerup St.",
+          "headsign": "Ballerup St.",
+          "variants": 1,
+          "tripCount": 18,
+          "stops": 17,
+          "lengthKm": 6.79,
+          "stats": {
+            "observations": 326,
+            "matched": 326,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.5384182713731969,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Ballerup St. (Banegårdspladsen)",
+          "headsign": "Ballerup St. (Banegårdspladsen)",
+          "variants": 1,
+          "tripCount": 2,
+          "stops": 28,
+          "lengthKm": 12.44,
+          "stats": {
+            "observations": 591,
+            "matched": 591,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8401678189203732,
+            "roundaboutSegs": 5,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Ballerup St. via Smørumnedre, Måløv St.",
+          "headsign": "Ballerup St. via Smørumnedre, Måløv St.",
+          "variants": 1,
+          "tripCount": 70,
+          "stops": 35,
+          "lengthKm": 16.79,
+          "stats": {
+            "observations": 792,
+            "matched": 792,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9355176186757211,
+            "roundaboutSegs": 11,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "160",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Tinghøjvej, Buddinge",
+          "variants": 2,
+          "tripCount": 12,
+          "stops": 30,
+          "lengthKm": 12.9,
+          "stats": {
+            "observations": 635,
+            "matched": 635,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8338536410835174,
+            "roundaboutSegs": 12,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Bagsværd St.",
+          "variants": 2,
+          "tripCount": 11,
+          "stops": 28,
+          "lengthKm": 12.95,
+          "stats": {
+            "observations": 624,
+            "matched": 624,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8516604353534714,
+            "roundaboutSegs": 4,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "164",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Oceankaj",
+          "variants": 3,
+          "tripCount": 141,
+          "stops": 59,
+          "lengthKm": 27.92,
+          "stats": {
+            "observations": 1247,
+            "matched": 1247,
+            "noCandidates": 0,
+            "viterbiBreaks": 2,
+            "bridged": 0,
+            "rawStretchCount": 2,
+            "rawMeters": 40,
+            "meanError": 1.3028558795112903,
+            "roundaboutSegs": 25,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Ballerup St.",
+          "variants": 4,
+          "tripCount": 135,
+          "stops": 61,
+          "lengthKm": 26.73,
+          "stats": {
+            "observations": 1234,
+            "matched": 1234,
+            "noCandidates": 0,
+            "viterbiBreaks": 2,
+            "bridged": 0,
+            "rawStretchCount": 2,
+            "rawMeters": 31,
+            "meanError": 1.3335277429078256,
+            "roundaboutSegs": 35,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "165",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Bagsværd St.",
+          "variants": 4,
+          "tripCount": 107,
+          "stops": 40,
+          "lengthKm": 17.11,
+          "stats": {
+            "observations": 841,
+            "matched": 841,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8515714844415552,
+            "roundaboutSegs": 12,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Herlev St.",
+          "variants": 4,
+          "tripCount": 105,
+          "stops": 38,
+          "lengthKm": 14.52,
+          "stats": {
+            "observations": 693,
+            "matched": 693,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8206180425875145,
+            "roundaboutSegs": 5,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "166",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Glostrup, Ejby St.",
+          "variants": 3,
+          "tripCount": 124,
+          "stops": 49,
+          "lengthKm": 18.85,
+          "stats": {
+            "observations": 831,
+            "matched": 831,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8083853158059678,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Bagsværd Værebroparken",
+          "variants": 1,
+          "tripCount": 123,
+          "stops": 52,
+          "lengthKm": 18.5,
+          "stats": {
+            "observations": 790,
+            "matched": 790,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.804465618194926,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "168",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Peberhaven (Sennepshaven)",
+          "variants": 2,
+          "tripCount": 87,
+          "stops": 32,
+          "lengthKm": 12.65,
+          "stats": {
+            "observations": 523,
+            "matched": 523,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.617397937654191,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Malmparken St. (Malmparken)",
+          "variants": 1,
+          "tripCount": 87,
+          "stops": 33,
+          "lengthKm": 13.54,
+          "stats": {
+            "observations": 626,
+            "matched": 626,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.5088040179443758,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "171",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Hellerup St.",
+          "headsign": "Hellerup St.",
+          "variants": 2,
+          "tripCount": 28,
+          "stops": 44,
+          "lengthKm": 15.51,
+          "stats": {
+            "observations": 777,
+            "matched": 777,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9258008716245395,
+            "roundaboutSegs": 100,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "172",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Hellerup St.",
+          "headsign": "Hellerup St.",
+          "variants": 2,
+          "tripCount": 29,
+          "stops": 40,
+          "lengthKm": 14.79,
+          "stats": {
+            "observations": 726,
+            "matched": 726,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9180543400198531,
+            "roundaboutSegs": 73,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "176",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Hellerup St.",
+          "variants": 2,
+          "tripCount": 32,
+          "stops": 31,
+          "lengthKm": 10.36,
+          "stats": {
+            "observations": 485,
+            "matched": 485,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2529322027993284,
+            "roundaboutSegs": 5,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Emdrup Torv",
+          "variants": 2,
+          "tripCount": 18,
+          "stops": 31,
+          "lengthKm": 10.74,
+          "stats": {
+            "observations": 502,
+            "matched": 502,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2823476292924052,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "179",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Skovshoved Strandvejen",
+          "variants": 2,
+          "tripCount": 77,
+          "stops": 31,
+          "lengthKm": 9.66,
+          "stats": {
+            "observations": 486,
+            "matched": 486,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.920963600026561,
+            "roundaboutSegs": 90,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Lyngby St.",
+          "variants": 2,
+          "tripCount": 79,
+          "stops": 29,
+          "lengthKm": 9.69,
+          "stats": {
+            "observations": 485,
+            "matched": 485,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9382589377894814,
+            "roundaboutSegs": 72,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "182",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Lyngby St.",
+          "headsign": "Lyngby St.",
+          "variants": 7,
+          "tripCount": 97,
+          "stops": 48,
+          "lengthKm": 19.3,
+          "stats": {
+            "observations": 897,
+            "matched": 897,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0540428329025713,
+            "roundaboutSegs": 55,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "183",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Lyngby St.",
+          "headsign": "Lyngby St.",
+          "variants": 6,
+          "tripCount": 96,
+          "stops": 49,
+          "lengthKm": 20.37,
+          "stats": {
+            "observations": 953,
+            "matched": 953,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0730192348996213,
+            "roundaboutSegs": 34,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Trongårdsvej",
+          "headsign": "Trongårdsvej",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 10,
+          "lengthKm": 3.33,
+          "stats": {
+            "observations": 164,
+            "matched": 164,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.833102978291984,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "184",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Nørreport St.",
+          "variants": 4,
+          "tripCount": 126,
+          "stops": 62,
+          "lengthKm": 26.75,
+          "stats": {
+            "observations": 1235,
+            "matched": 1235,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.142571047250151,
+            "roundaboutSegs": 37,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Vedbæk St.",
+          "variants": 8,
+          "tripCount": 133,
+          "stops": 56,
+          "lengthKm": 26,
+          "stats": {
+            "observations": 1210,
+            "matched": 1210,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1214312604261847,
+            "roundaboutSegs": 37,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "185",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Klampenborg St.",
+          "variants": 1,
+          "tripCount": 117,
+          "stops": 36,
+          "lengthKm": 14.56,
+          "stats": {
+            "observations": 698,
+            "matched": 698,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.353335165620745,
+            "roundaboutSegs": 66,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Nørreport St.",
+          "variants": 1,
+          "tripCount": 120,
+          "stops": 36,
+          "lengthKm": 14.3,
+          "stats": {
+            "observations": 678,
+            "matched": 678,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3635398904923044,
+            "roundaboutSegs": 49,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "191",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Skodsborg St.",
+          "variants": 9,
+          "tripCount": 30,
+          "stops": 45,
+          "lengthKm": 18.77,
+          "stats": {
+            "observations": 843,
+            "matched": 843,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.936636990200657,
+            "roundaboutSegs": 33,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Lyngby St.",
+          "variants": 9,
+          "tripCount": 32,
+          "stops": 46,
+          "lengthKm": 18.55,
+          "stats": {
+            "observations": 835,
+            "matched": 835,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9946460989282556,
+            "roundaboutSegs": 65,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "192",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Charlottenlund Fort",
+          "variants": 4,
+          "tripCount": 36,
+          "stops": 28,
+          "lengthKm": 12.37,
+          "stats": {
+            "observations": 598,
+            "matched": 598,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.545463844764081,
+            "roundaboutSegs": 21,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Lyngby St.",
+          "variants": 4,
+          "tripCount": 36,
+          "stops": 29,
+          "lengthKm": 12.54,
+          "stats": {
+            "observations": 608,
+            "matched": 608,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4638660805228572,
+            "roundaboutSegs": 17,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "193",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Vedbæk St.",
+          "variants": 2,
+          "tripCount": 104,
+          "stops": 53,
+          "lengthKm": 20.83,
+          "stats": {
+            "observations": 956,
+            "matched": 956,
+            "noCandidates": 0,
+            "viterbiBreaks": 3,
+            "bridged": 0,
+            "rawStretchCount": 3,
+            "rawMeters": 59,
+            "meanError": 1.3840869063844463,
+            "roundaboutSegs": 38,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Lyngby St.",
+          "variants": 4,
+          "tripCount": 80,
+          "stops": 50,
+          "lengthKm": 20.07,
+          "stats": {
+            "observations": 931,
+            "matched": 931,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8074510419175056,
+            "roundaboutSegs": 30,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "194",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Teknikerbyen",
+          "variants": 2,
+          "tripCount": 11,
+          "stops": 11,
+          "lengthKm": 4.31,
+          "stats": {
+            "observations": 216,
+            "matched": 216,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.6478978638693489,
+            "roundaboutSegs": 11,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Lyngby St.",
+          "variants": 2,
+          "tripCount": 11,
+          "stops": 13,
+          "lengthKm": 4.47,
+          "stats": {
+            "observations": 225,
+            "matched": 225,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.8872000354684805,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "200S",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Friheden St.",
+          "variants": 7,
+          "tripCount": 166,
+          "stops": 27,
+          "lengthKm": 18.06,
+          "stats": {
+            "observations": 779,
+            "matched": 779,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9497891304449204,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Buddinge St.",
+          "variants": 8,
+          "tripCount": 31,
+          "stops": 38,
+          "lengthKm": 23.65,
+          "stats": {
+            "observations": 908,
+            "matched": 908,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.7800306357950761,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "250S",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Bagsværd St.",
+          "variants": 6,
+          "tripCount": 191,
+          "stops": 42,
+          "lengthKm": 32.04,
+          "stats": {
+            "observations": 1353,
+            "matched": 1353,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2813574363615707,
+            "roundaboutSegs": 4,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Dragør Stationsplads",
+          "variants": 4,
+          "tripCount": 189,
+          "stops": 43,
+          "lengthKm": 32.1,
+          "stats": {
+            "observations": 1338,
+            "matched": 1338,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.3409296168080416,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "300S",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Rødovre Nord St.",
+          "variants": 3,
+          "tripCount": 343,
+          "stops": 21,
+          "lengthKm": 16.52,
+          "stats": {
+            "observations": 800,
+            "matched": 800,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.4905074219332677,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Lundtofte, Lundtofteparken",
+          "variants": 3,
+          "tripCount": 342,
+          "stops": 21,
+          "lengthKm": 18.14,
+          "stats": {
+            "observations": 884,
+            "matched": 884,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.30928457284413,
+            "roundaboutSegs": 40,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "350S",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Nørreport St.",
+          "variants": 1,
+          "tripCount": 215,
+          "stops": 23,
+          "lengthKm": 17.99,
+          "stats": {
+            "observations": 850,
+            "matched": 850,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1792550199577985,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Ballerup St.",
+          "variants": 1,
+          "tripCount": 211,
+          "stops": 24,
+          "lengthKm": 17.7,
+          "stats": {
+            "observations": 817,
+            "matched": 817,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2185084091952465,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "385",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Allerød St.",
+          "variants": 1,
+          "tripCount": 42,
+          "stops": 37,
+          "lengthKm": 17.29,
+          "stats": {
+            "observations": 760,
+            "matched": 760,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0944870503596014,
+            "roundaboutSegs": 82,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Holte St.",
+          "variants": 1,
+          "tripCount": 54,
+          "stops": 22,
+          "lengthKm": 11.3,
+          "stats": {
+            "observations": 506,
+            "matched": 506,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.2437796422331102,
+            "roundaboutSegs": 52,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "400S",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ishøj St.",
+          "variants": 5,
+          "tripCount": 178,
+          "stops": 26,
+          "lengthKm": 36.24,
+          "stats": {
+            "observations": 1476,
+            "matched": 1476,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0221550565818933,
+            "roundaboutSegs": 24,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Lyngby St.",
+          "variants": 6,
+          "tripCount": 178,
+          "stops": 28,
+          "lengthKm": 36.49,
+          "stats": {
+            "observations": 1519,
+            "matched": 1519,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1244125535945528,
+            "roundaboutSegs": 15,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "500S",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ørestad St.",
+          "variants": 16,
+          "tripCount": 44,
+          "stops": 49,
+          "lengthKm": 59.74,
+          "stats": {
+            "observations": 2614,
+            "matched": 2614,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0217430744275848,
+            "roundaboutSegs": 86,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Kokkedal St.",
+          "variants": 16,
+          "tripCount": 48,
+          "stops": 50,
+          "lengthKm": 60.05,
+          "stats": {
+            "observations": 2545,
+            "matched": 2545,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0459682611718608,
+            "roundaboutSegs": 35,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "834",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Skovlunde St.",
+          "variants": 1,
+          "tripCount": 7,
+          "stops": 25,
+          "lengthKm": 14.53,
+          "stats": {
+            "observations": 647,
+            "matched": 647,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.015486359939398,
+            "roundaboutSegs": 17,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Ballerup St. (Banegårdspladsen)",
+          "variants": 1,
+          "tripCount": 7,
+          "stops": 25,
+          "lengthKm": 10.52,
+          "stats": {
+            "observations": 496,
+            "matched": 496,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.8810005952585296,
+            "roundaboutSegs": 13,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "847",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Servicebus Glostrup",
+          "headsign": "Servicebus Glostrup",
+          "variants": 1,
+          "tripCount": 11,
+          "stops": 23,
+          "lengthKm": 15.86,
+          "stats": {
+            "observations": 738,
+            "matched": 738,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.7197794897788359,
+            "roundaboutSegs": 51,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "848",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Rødovre Nord St.",
+          "variants": 2,
+          "tripCount": 6,
+          "stops": 30,
+          "lengthKm": 13.89,
+          "stats": {
+            "observations": 608,
+            "matched": 608,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1698734086425338,
+            "roundaboutSegs": 29,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Rødovre St. Via Rødovre Centrum",
+          "variants": 1,
+          "tripCount": 6,
+          "stops": 32,
+          "lengthKm": 18.47,
+          "stats": {
+            "observations": 797,
+            "matched": 797,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.0503095052164908,
+            "roundaboutSegs": 84,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "910",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Nærum St.",
+          "variants": 1,
+          "tripCount": 17,
+          "stops": 7,
+          "lengthKm": 8.24,
+          "stats": {
+            "observations": 372,
+            "matched": 372,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 1.1857876161994516,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Lyngby St.",
+          "variants": 1,
+          "tripCount": 20,
+          "stops": 7,
+          "lengthKm": 7.97,
+          "stats": {
+            "observations": 362,
+            "matched": 362,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.896882150384441,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "L",
+      "mode": "tram",
+      "color": "#d6212b",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ishøj St. (Letbane)",
+          "variants": 4,
+          "tripCount": 504,
+          "stops": 29,
+          "lengthKm": 27.32,
+          "stats": {
+            "observations": 1164,
+            "matched": 1164,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2075321861937334,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Lundtofte St. (Letbane)",
+          "variants": 3,
+          "tripCount": 502,
+          "stops": 29,
+          "lengthKm": 27.32,
+          "stats": {
+            "observations": 1164,
+            "matched": 1164,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 2.2040604240876234,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "M1",
+      "mode": "tram",
+      "color": "#007756",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Vestamager St. (Metro)",
+          "variants": 15,
+          "tripCount": 5410,
+          "stops": 15,
+          "lengthKm": 13.81,
+          "stats": {
+            "observations": 517,
+            "matched": 517,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.231251896506968,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Vanløse St. (Metro)",
+          "variants": 11,
+          "tripCount": 5336,
+          "stops": 15,
+          "lengthKm": 13.81,
+          "stats": {
+            "observations": 516,
+            "matched": 516,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.206595878262614,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "M2",
+      "mode": "tram",
+      "color": "#FFCC00",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Københavns Lufthavn St. (Metro)",
+          "variants": 10,
+          "tripCount": 5392,
+          "stops": 16,
+          "lengthKm": 14.28,
+          "stats": {
+            "observations": 657,
+            "matched": 657,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.604681782800217,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Vanløse St. (Metro)",
+          "variants": 11,
+          "tripCount": 5435,
+          "stops": 16,
+          "lengthKm": 14.28,
+          "stats": {
+            "observations": 657,
+            "matched": 657,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.552750460682955,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "M3",
+      "mode": "tram",
+      "color": "#E40037",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "København H (Metro)",
+          "variants": 8,
+          "tripCount": 8264,
+          "stops": 18,
+          "lengthKm": 15.19,
+          "stats": {
+            "observations": 742,
+            "matched": 742,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.504252922463785,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "København H (Metro)",
+          "variants": 8,
+          "tripCount": 8178,
+          "stops": 18,
+          "lengthKm": 15.19,
+          "stats": {
+            "observations": 742,
+            "matched": 742,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.5108051665563575,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "M4",
+      "mode": "tram",
+      "color": "#009CD3",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Orientkaj St. (Metro)",
+          "variants": 6,
+          "tripCount": 7894,
+          "stops": 13,
+          "lengthKm": 12.37,
+          "stats": {
+            "observations": 591,
+            "matched": 591,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 11.570077926721465,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "København Syd  St. (Metro)",
+          "variants": 6,
+          "tripCount": 7894,
+          "stops": 13,
+          "lengthKm": 12.32,
+          "stats": {
+            "observations": 591,
+            "matched": 591,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 11.386725369366278,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "A",
+      "mode": "tram",
+      "color": "#00A7E3",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Køge St.",
+          "variants": 13,
+          "tripCount": 251,
+          "stops": 36,
+          "lengthKm": 75.87,
+          "stats": {
+            "observations": 2307,
+            "matched": 2307,
+            "noCandidates": 0,
+            "viterbiBreaks": 4,
+            "bridged": 0,
+            "rawStretchCount": 4,
+            "rawMeters": 80,
+            "meanError": 3.8010038503611803,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Hillerød St.",
+          "variants": 12,
+          "tripCount": 266,
+          "stops": 37,
+          "lengthKm": 75.89,
+          "stats": {
+            "observations": 2307,
+            "matched": 2307,
+            "noCandidates": 0,
+            "viterbiBreaks": 4,
+            "bridged": 0,
+            "rawStretchCount": 4,
+            "rawMeters": 80,
+            "meanError": 4.626964035682352,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "B",
+      "mode": "tram",
+      "color": "#55AB26",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Høje Taastrup St.",
+          "variants": 6,
+          "tripCount": 125,
+          "stops": 29,
+          "lengthKm": 46.8,
+          "stats": {
+            "observations": 1397,
+            "matched": 1397,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 3.811909734151716,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Farum St.",
+          "variants": 7,
+          "tripCount": 238,
+          "stops": 29,
+          "lengthKm": 46.79,
+          "stats": {
+            "observations": 1397,
+            "matched": 1397,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 4.283071156983302,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "Bx",
+      "mode": "tram",
+      "color": "#AECD6B",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Høje Taastrup St.",
+          "variants": 2,
+          "tripCount": 16,
+          "stops": 23,
+          "lengthKm": 33.12,
+          "stats": {
+            "observations": 882,
+            "matched": 882,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 3.6871197913662184,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Buddinge St.",
+          "variants": 2,
+          "tripCount": 16,
+          "stops": 23,
+          "lengthKm": 33.11,
+          "stats": {
+            "observations": 882,
+            "matched": 882,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 4.333294401358882,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "C",
+      "mode": "tram",
+      "color": "#F29400",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Frederikssund St.",
+          "variants": 8,
+          "tripCount": 199,
+          "stops": 32,
+          "lengthKm": 55.15,
+          "stats": {
+            "observations": 1742,
+            "matched": 1742,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 6.55259597166612,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Klampenborg St.",
+          "variants": 9,
+          "tripCount": 174,
+          "stops": 32,
+          "lengthKm": 55.13,
+          "stats": {
+            "observations": 1741,
+            "matched": 1741,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 6.58428249627442,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "E",
+      "mode": "tram",
+      "color": "#857AB3",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Køge St.",
+          "variants": 4,
+          "tripCount": 82,
+          "stops": 32,
+          "lengthKm": 58.23,
+          "stats": {
+            "observations": 1908,
+            "matched": 1908,
+            "noCandidates": 0,
+            "viterbiBreaks": 4,
+            "bridged": 0,
+            "rawStretchCount": 4,
+            "rawMeters": 80,
+            "meanError": 3.456092011648882,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Holte St.",
+          "variants": 3,
+          "tripCount": 80,
+          "stops": 32,
+          "lengthKm": 58.25,
+          "stats": {
+            "observations": 1907,
+            "matched": 1907,
+            "noCandidates": 0,
+            "viterbiBreaks": 4,
+            "bridged": 0,
+            "rawStretchCount": 4,
+            "rawMeters": 80,
+            "meanError": 4.439917764526591,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "F",
+      "mode": "tram",
+      "color": "#FCC300",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "København Syd St.",
+          "variants": 6,
+          "tripCount": 85,
+          "stops": 15,
+          "lengthKm": 17.35,
+          "stats": {
+            "observations": 633,
+            "matched": 633,
+            "noCandidates": 0,
+            "viterbiBreaks": 2,
+            "bridged": 0,
+            "rawStretchCount": 2,
+            "rawMeters": 40,
+            "meanError": 6.604671844278526,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Klampenborg St.",
+          "variants": 5,
+          "tripCount": 99,
+          "stops": 15,
+          "lengthKm": 17.32,
+          "stats": {
+            "observations": 632,
+            "matched": 632,
+            "noCandidates": 0,
+            "viterbiBreaks": 2,
+            "bridged": 0,
+            "rawStretchCount": 3,
+            "rawMeters": 773,
+            "meanError": 7.737604618182378,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "H",
+      "mode": "tram",
+      "color": "#E64215",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Ballerup St.",
+          "variants": 2,
+          "tripCount": 44,
+          "stops": 18,
+          "lengthKm": 20.77,
+          "stats": {
+            "observations": 658,
+            "matched": 658,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 3.404719682856546,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Østerport St.",
+          "variants": 3,
+          "tripCount": 40,
+          "stops": 18,
+          "lengthKm": 20.74,
+          "stats": {
+            "observations": 657,
+            "matched": 657,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 20,
+            "meanError": 6.201865187966413,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    }
+  ]
+}
