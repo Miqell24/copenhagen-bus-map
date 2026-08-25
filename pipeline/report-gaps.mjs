@@ -3,7 +3,7 @@
 // THRESHOLD meters apart (the trace jumps in a straight line instead of following the
 // roadway). ALL shapes used by trips are analyzed, results grouped by location.
 // Usage: node pipeline/report-gaps.mjs [threshold_m]
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { iterCsv, readCsv } from './lib/csv.mjs';
@@ -15,7 +15,8 @@ const t0 = Date.now();
 const log = (m) => console.log(`[${((Date.now() - t0) / 1000).toFixed(1)}s] ${m}`);
 
 // ---------- feed_info + routes + trips ----------
-const feedInfo = (await readCsv(join(ROOT, 'data/gtfs/feed_info.txt')))[0] || {};
+const feedInfoPath = join(ROOT, 'data/gtfs/feed_info.txt');
+const feedInfo = existsSync(feedInfoPath) ? ((await readCsv(feedInfoPath))[0] || {}) : {};
 const routes = await readCsv(join(ROOT, 'data/gtfs/routes.txt'));
 const routeToLine = new Map(routes.map((r) => [r.route_id, r.route_short_name]));
 const shapeLines = new Map(); // shape_id -> Set(line)
@@ -69,7 +70,7 @@ log(`locations after grouping: ${clusters.length}`);
 
 // ---------- nearest named OSM street (approximate) ----------
 log('Indexing named OSM streets…');
-const osm = JSON.parse(readFileSync(join(ROOT, 'data/osm/poznan.json'), 'utf8'));
+const osm = JSON.parse(readFileSync(join(ROOT, 'data/osm/copenhagen.json'), 'utf8'));
 const CELL = 250;
 const nameGrid = new Map();
 for (const el of osm.elements) {
