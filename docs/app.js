@@ -290,9 +290,15 @@ async function init() {
         '\n', {},
         ['get', 'ntLines'], { 'text-color': KMK }],
       ['format', ['get', 'lines'], {}]]];
+  // A liveried line keeps ITS OWN colour in the number rows, even where it
+  // shares a corridor with another one (user rule, 9.09.2026). The pipeline
+  // writes those rows as coloured SECTIONS — l0/c0, l1/c1 … — one section per
+  // run of same-coloured numbers; see pipeline/railrows.mjs and night.mjs.
+  const sectionRow = (pre) => { const r = ['format']; for (let i = 0; i < 24; i++) r.push(['coalesce', ['get', pre + 'l' + i], ''], { 'text-color': ['coalesce', ['get', pre + 'c' + i], KMK] }); return r; };
+  const numberFieldN = ['case', ['has', 'l0'], sectionRow(''), numberField];
   map.addSource('labels', { type: 'geojson', data: 'data/labels.geojson' });
   const numbersLayout = {
-    'text-field': numberField,
+    'text-field': numberFieldN,
     'text-font': [NARROW_BOLD],
     // a quarter smaller than the stop names' scale: the rows are the most
     // repeated element on the map, and at the old size they crowded whole
@@ -926,7 +932,7 @@ async function init() {
       numField = busOnlyNumbers;
     } else {
       numC = ['all', lblModeC, selC];
-      numField = state.tram && !(B || M) ? tramOnlyNumbers : numberField;
+      numField = state.tram && !(B || M) ? tramOnlyNumbers : numberFieldN;
     }
     // with only one bus network on, mixed rows shrink to their relevant half
     if (B && !M) numField = ['case', ['all', ['==', ['get', 'mode'], 'bus'], ['has', 'nmLines']], ['format', ['get', 'nmLines'], {}], numField];
