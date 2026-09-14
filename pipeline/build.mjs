@@ -6,9 +6,11 @@
 // lines (109). The feed ships no colors, so metro and S-tog get their official
 // line colors from a hand list here; both get the engine's metro treatment
 // (wide ribbon, station discs, always-on names) — the metro via M-keys, the
-// S-tog via allMetro on its cfg (its keys are bare letters A…H). Regional rail
-// and lokaltog (2) and the harbour buses (4) stay off the map.
-// Usage: node pipeline/build.mjs [--all | lines...] [--tram all|T3a,M2]
+// S-tog via allMetro on its cfg (its keys are bare letters A…H). The harbour
+// buses 991/992 (4) ride a FIFTH mode, 'ferry', whose "streets" are the water:
+// synthetic route=ferry ways routed through the harbour by pipeline/harbour.mjs.
+// Regional rail and lokaltog (2) stay off the map.
+// Usage: node pipeline/build.mjs [--all | lines...] [--tram all|T3a,M2,991]
 // Results land in shared files with properties.color/mode, so the frontend styles
 // them data-driven.
 import { readFileSync, writeFileSync, mkdirSync, existsSync, statSync } from 'node:fs';
@@ -28,6 +30,9 @@ if (!existsSync(SCOPE_FILE)) {
 }
 const SCOPE = JSON.parse(readFileSync(SCOPE_FILE, 'utf8'));
 const SCOPE_BUS = new Set(SCOPE.bus), SCOPE_TRAM = new Set(SCOPE.tram), SCOPE_METRO = new Set(SCOPE.metro), SCOPE_STOG = new Set(SCOPE.stog || []);
+const SCOPE_FERRY = new Set(SCOPE.ferry || []);
+// the water network the ferry mode rides — written by pipeline/harbour.mjs
+const FERRY_OSM = join(ROOT, 'data/osm/copenhagen-ferry.json');
 // m — longer jumps between shape points are GTFS data gaps. Inside a real gap
 // the HMM bridges by routing instead of interpolating observations, which would
 // fabricate straight-line detours through side streets.
@@ -40,6 +45,10 @@ const SIDE_CORRIDOR = 6;
 
 const TROLLEY_GREEN = '#149a3f';
 const TROLLEY_DARK = '#0a5121';
+// the harbour buses: ferry purple (deeper than S-tog E's lavender), dashed by
+// the frontend — water, not road, and never to be read as the navy bus stroke
+const FERRY_PURPLE = '#7b2ca8';
+const FERRY_DARK = '#4a1668';
 // oficjalne kolory linii — feed Rejseplanen nie wiezie route_color
 // (źródła: moduły „Adjacent stations" Wikipedii dla metra i S-tog)
 const CPH_COLORS = {
@@ -134,9 +143,11 @@ const busList = busArgs.filter((a) => a !== '--all');
 // M-keys and the S-tog letters get the metro treatment; the letbane is the tram
 const isRailTrunk = (l) => /^M\d/.test(l);
 const STOG = new Set(['A', 'B', 'Bx', 'C', 'E', 'F', 'H']);
-const tramSel = tramLines.filter((l) => !/^M\d/.test(l) && !STOG.has(l));
+const FERRY = new Set(['991', '992', '993']); // the harbour bus numbers (993 is not in scope, but never a tram)
+const tramSel = tramLines.filter((l) => !/^M\d/.test(l) && !STOG.has(l) && !FERRY.has(l));
 const metroSel = tramLines.filter((l) => /^M\d/.test(l));
 const stogSel = tramLines.filter((l) => STOG.has(l));
+const ferrySel = tramLines.filter((l) => FERRY.has(l));
 
 const MODES = [{
   mode: 'bus', label: 'buses', osmFile: 'data/osm/copenhagen.json',
@@ -184,6 +195,26 @@ if (tramAll || stogSel.length) MODES.push({
       skipRoute: (r) => !SCOPE_STOG.has(r.route_id), lineColors: CPH_COLORS },
   ],
 });
+// The harbour buses 991/992 (14.09.2026). Their graph is the water: the
+// courses pipeline/harbour.mjs routed through the harbour's water mask, one
+// synthetic route=ferry way per stop pair. The feed's own shapes are ignored —
+// they are a coarse trace that would only pull the match off the water — so
+// the stop sequence is the observation and the HMM follows the courses.
+if ((tramAll || ferrySel.length) && SCOPE_FERRY.size) {
+  if (!existsSync(FERRY_OSM)) console.error(`WARNING: ${FERRY_OSM} missing — run \`node pipeline/harbour.mjs\` first; the harbour buses are skipped`);
+  else MODES.push({
+    mode: 'ferry', label: 'harbour buses', osmFile: 'data/osm/copenhagen-ferry.json',
+    graphMode: 'ferry', color: FERRY_PURPLE, colorDark: FERRY_DARK,
+    all: tramAll, lines: tramAll ? [] : ferrySel,
+    feeds: [
+      { tag: 'dk', dir: 'data/gtfs', mapKey: (sn) => sn, routeTypes: ['4'], ignoreShapes: true,
+        skipRoute: (r) => !SCOPE_FERRY.has(r.route_id),
+        // every stop at its BERTH on the quay, where the water courses start
+        // and end — the feed's pontoon coordinates lie out in the basin
+        stopAt: JSON.parse(readFileSync(FERRY_OSM, 'utf8')).berths || {} },
+    ],
+  });
+}
 
 // Feed coordinate fixes: poles the GTFS places on the wrong street, keyed by
 // `<feed tag>:<stop_id>` with the coordinates of that stop's node in OSM. A
@@ -287,8 +318,9 @@ async function processMode(cfg) {
   for (const feed of cfg.feeds) {
     const fdir = join(ROOT, feed.dir);
     const shapesFile = join(fdir, 'shapes.txt');
-    // guard inherited from sibling cities: a header-only shapes.txt counts as absent
-    const hasShapes = existsSync(shapesFile) && statSync(shapesFile).size > 200;
+    // guard inherited from sibling cities: a header-only shapes.txt counts as absent;
+    // ignoreShapes: the feed's trace is not to be trusted for this mode (the ferries)
+    const hasShapes = !feed.ignoreShapes && existsSync(shapesFile) && statSync(shapesFile).size > 200;
     // more trips sampled when stop sequences ARE the geometry: the longest run
     // must win over short-turn variants
     const tripCap = hasShapes ? 40 : 200;
@@ -437,10 +469,11 @@ async function processMode(cfg) {
       // feed names carry double spaces here and there — collapse for clean labels
       let name = (s.stop_name || '').replace(/\s+/g, ' ').trim()
         // Rejseplanen suffixes every metro/letbane platform with its system —
-        // "Østerport St. (Metro)" beside "Østerport St." reads as two places
-        .replace(/\s*\((Metro|Letbane)\)$/i, '');
+        // "Østerport St. (Metro)" beside "Østerport St." reads as two places;
+        // the harbour bus pontoons wear "(Københavns Havn)" the same way
+        .replace(/\s*\((Metro|Letbane|Københavns Havn)\)$/i, '');
       if (feed.titleCase) name = titleCase(name);
-      const fix = STOP_FIX[feed.tag + ':' + s.stop_id];
+      const fix = STOP_FIX[feed.tag + ':' + s.stop_id] || (feed.stopAt && feed.stopAt[s.stop_id]);
       stopsById.set(feed.tag + ':' + s.stop_id, {
         name,
         lat: fix ? fix[0] : Number(s.stop_lat),
@@ -596,6 +629,13 @@ async function processMode(cfg) {
     }
     const res = matchShape(graph, sampled, opts);
     if (!res) { log(`SKIPPED ${r.line}/${r.dir}: matching failed`); continue; }
+    // A ferry has no business off its water courses: a raw fallback stretch or
+    // a broken chain would be a straight chord drawn across the quays, the one
+    // thing the harbour routing exists to prevent. Such a rep is dropped, loudly.
+    if (cfg.mode === 'ferry' && (res.rawStretches.length || res.stats.viterbiBreaks)) {
+      log(`SKIPPED ${r.line}/${r.dir}: the match left the water courses (raw=${res.rawStretches.length}, breaks=${res.stats.viterbiBreaks}) — rerun pipeline/harbour.mjs`);
+      continue;
+    }
     // the drawn line must reach the stops it serves: truncated source shapes and
     // dropped pseudo observations otherwise leave the terminus disc, its name and
     // the line badges hanging off the end of the route

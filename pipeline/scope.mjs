@@ -12,7 +12,10 @@
 //   własne „L" w tym samym feedzie).
 //  metro (1): M1–M4 (Metroselskabet).
 //  S-tog (109): wszystkie 7 linii DSB S-tog, bez reguły promienia — to szkielet.
-//  poza mapą: kolej regionalna i lokaltog (2), promy portowe 991–993 (4).
+//  promy portowe (4): Havnebussen 991 i 992 (Orientkaj – Teglholmen) — od
+//   14.09.2026 rysowane po wodzie (pipeline/harbour.mjs); 993 (Nyhavn – Opera,
+//   dwa przystanki) celowo poza mapą.
+//  poza mapą: kolej regionalna i lokaltog (2).
 //
 // Uruchamiane przez download.sh po pobraniu GTFS; build.mjs wymaga wyniku.
 import { readFileSync, writeFileSync } from 'node:fs';
@@ -26,6 +29,7 @@ const GD = join(ROOT, 'data/gtfs');
 const CX = 12.5683, CY = 55.6761;     // Rådhuspladsen
 const CORE_KM = 20, CORE_SHARE = 0.5, CAP_KM = 45;
 const BAD_BUS_AGENCIES = new Set(['Metroselskabet', 'DSB', 'DSB S-tog']);
+const FERRY_LINES = new Set(['991', '992']);
 
 const t0 = Date.now();
 const log = (m) => console.log(`[scope ${((Date.now() - t0) / 1000).toFixed(0)}s] ${m}`);
@@ -33,7 +37,7 @@ const log = (m) => console.log(`[scope ${((Date.now() - t0) / 1000).toFixed(0)}s
 const agency = new Map();
 for (const a of await readCsv(join(GD, 'agency.txt'))) agency.set(a.agency_id, a.agency_name);
 
-const busCand = new Set(), tram = [], metro = [], stog = [];
+const busCand = new Set(), tram = [], metro = [], stog = [], ferry = [];
 for (const r of await readCsv(join(GD, 'routes.txt'))) {
   const an = agency.get(r.agency_id) || '';
   if (r.route_type === '3' || r.route_type === '700') {
@@ -45,9 +49,11 @@ for (const r of await readCsv(join(GD, 'routes.txt'))) {
     if (an === 'Metroselskabet') metro.push(r.route_id);
   } else if (r.route_type === '109') {
     if (an === 'DSB S-tog') stog.push(r.route_id);
+  } else if (r.route_type === '4') {
+    if (an === 'Movia' && FERRY_LINES.has((r.route_short_name || '').trim())) ferry.push(r.route_id);
   }
 }
-log(`kandydatów bus: ${busCand.size}, letbane: ${tram.length}, metro: ${metro.length}, S-tog: ${stog.length}`);
+log(`kandydatów bus: ${busCand.size}, letbane: ${tram.length}, metro: ${metro.length}, S-tog: ${stog.length}, promy: ${ferry.length}`);
 
 const mx = 111320 * Math.cos(48.85 * Math.PI / 180), my = 111132;
 const stopKm = new Map();
@@ -87,5 +93,5 @@ for (const [rid, stops] of rStops) {
 }
 log(`wybrano bus: ${bus.length} (odrzucone limitem ${CAP_KM} km: ${cut})`);
 writeFileSync(join(ROOT, 'data/scope.json'),
-  JSON.stringify({ bus: bus.sort(), tram: tram.sort(), metro: metro.sort(), stog: stog.sort() }, null, 0));
+  JSON.stringify({ bus: bus.sort(), tram: tram.sort(), metro: metro.sort(), stog: stog.sort(), ferry: ferry.sort() }, null, 0));
 log('zapisano data/scope.json');

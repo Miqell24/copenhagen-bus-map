@@ -118,6 +118,8 @@ body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
 .sw { flex: 0 0 auto; }
 .sw.line { width: 26px; height: 5px; background: var(--kmk); border-radius: 3px; box-shadow: 0 0 0 2px #fff, 0 0 0 3px #ccd; }
 .sw.line.tram { background: #d6212b; }
+/* harbour buses: the dashed purple of the water courses */
+.sw.line.ferry { background: repeating-linear-gradient(90deg, #7b2ca8 0 7px, #ffffff 7px 11px); }
 .sw.line.mline { background: #e8a000; }
 /* metro swatch: the five Metrorex line colors side by side */
 .sw.line.metro { background: linear-gradient(90deg, #F8C301 0 20%, #495676 20% 40%, #DA251C 40% 60%, #3C746B 60% 80%, #F7951E 80% 100%); }

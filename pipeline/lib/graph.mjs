@@ -34,6 +34,14 @@ function tramAccess(tags) {
   return { restricted: false, driveway: false };
 }
 
+// Ferry mode: the graph is the WATER — synthetic route=ferry ways written by
+// pipeline/harbour.mjs (courses routed through the harbour's water mask), no
+// direction, no penalties. Nothing else is a waterway.
+function ferryAccess(tags) {
+  if (!tags || tags.route !== 'ferry') return null;
+  return { restricted: false, driveway: false };
+}
+
 // null = way excluded; {restricted|driveway} = in the graph but with a cost penalty.
 // The GTFS trace is sometimes the only evidence that KMK has right of way (e.g. the
 // access=no links at Bronowicka), so hard-excluding such roads breaks the matching
@@ -82,7 +90,7 @@ export function buildGraph(elements, proj, mode = 'road') {
 
   for (const el of elements) {
     if (el.type !== 'way') continue;
-    const acc = mode === 'tram' ? tramAccess(el.tags) : wayAccess(el.tags);
+    const acc = mode === 'tram' ? tramAccess(el.tags) : mode === 'ferry' ? ferryAccess(el.tags) : wayAccess(el.tags);
     if (!acc) continue;
     const ids = el.nodes, geo = el.geometry;
     if (!ids || !geo || ids.length !== geo.length || ids.length < 2) continue;

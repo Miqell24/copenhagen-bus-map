@@ -26,7 +26,8 @@ ok_json () { # $1=file  $2=minimum element count
   python3 - "$1" "$2" <<'PYEOF' 2>/dev/null
 import json, sys
 try:
-    sys.exit(0 if len(json.load(open(sys.argv[1])).get("elements", [])) >= int(sys.argv[2]) else 1)
+    # explicit UTF-8: on Windows open() defaults to cp1250 and dies on "å"
+    sys.exit(0 if len(json.load(open(sys.argv[1], encoding="utf-8")).get("elements", [])) >= int(sys.argv[2]) else 1)
 except Exception:
     sys.exit(1)
 PYEOF
@@ -81,6 +82,32 @@ if [ ! -f data/osm/copenhagen-rail.json ]; then
     fi
   done
   [ "$ok" = 1 ] || { rm -f data/osm/copenhagen-rail.json; echo "Overpass (rails): all mirrors failed" >&2; exit 1; }
+fi
+
+# 2c) OSM — the harbour's WATER for the harbour buses 991/992: coastline,
+#     water polygons, bays and the piers (cut back out of the water: the
+#     pontoons the stops stand on) around Københavns Havn (a margin past the
+#     Orientkaj–Teglholmen stops, which pipeline/harbour.mjs grids with 1.5 km
+#     around them). harbour.mjs turns it into data/osm/copenhagen-ferry.json —
+#     water courses the ferry mode matches on.
+if [ ! -f data/osm/copenhagen-water.json ]; then
+  echo "== Overpass (harbour water) =="
+  QW='[out:json][timeout:300];(way["natural"="coastline"](55.60,12.47,55.76,12.72);way["natural"="water"](55.60,12.47,55.76,12.72);rel["natural"="water"](55.60,12.47,55.76,12.72);way["natural"="bay"](55.60,12.47,55.76,12.72);rel["natural"="bay"](55.60,12.47,55.76,12.72);way["man_made"="pier"](55.60,12.47,55.76,12.72);rel["man_made"="pier"](55.60,12.47,55.76,12.72););out geom;'
+  ok=0
+  for EP in "https://overpass-api.de/api/interpreter" \
+            "https://lz4.overpass-api.de/api/interpreter" \
+            "https://z.overpass-api.de/api/interpreter" \
+            "https://overpass.kumi.systems/api/interpreter"; do
+    echo "-- $EP"
+    if curl -fsS --max-time 300 -o data/osm/copenhagen-water.json --data-urlencode "data=$QW" "$EP" \
+       && ok_json "data/osm/copenhagen-water.json" 200; then
+      ok=1; break
+    fi
+  done
+  [ "$ok" = 1 ] || { rm -f data/osm/copenhagen-water.json; echo "Overpass (harbour water): all mirrors failed" >&2; exit 1; }
+fi
+if [ ! -f data/osm/copenhagen-ferry.json ]; then
+  node pipeline/harbour.mjs
 fi
 
 # 3) MapLibre GL (vendored, no CDN at runtime)
