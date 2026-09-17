@@ -9,7 +9,7 @@ coarse multi-track centerlines; buses sit at ~0.5 m).
 
 ## Live
 
-**https://miqell24.github.io/copenhagen-bus-map/** — GitHub Pages from `main:/docs`. Local build on port 8153 (`npm run serve`).
+**https://agcghub.github.io/copenhagen-bus-map/** — GitHub Pages from `main:/docs`. Local build on port 8153 (`npm run serve`).
 
 Everything comes from ONE feed — the NATIONAL Rejseplanen GTFS
 (https://www.rejseplanen.info/labs/GTFS.zip, all of Denmark) — so the map's
